@@ -1,0 +1,431 @@
+html{
+    margin-top: 40px;
+    scroll-behavior: smooth;
+    font-family: 'MedievalSharp', Arial, Helvetica, sans-serif;
+}
+body p{
+    color: greenyellow;
+}
+body{
+    margin: 0px;
+    background-image: url(https://www.wojsko-polskie.pl/u/dc/62/dc62f01b-f15e-48f3-ab9f-a5b6c4968ef6/jan_matejko_bitwa_pod_grunwaldem-1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}   
+main{
+    width: 100%;
+    height: 100%;
+
+}
+.main{
+    background-image: url('grunge_wall_@2X.png');
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+nav {
+    overflow: hidden;
+    background-image: url('gray_sand_@2X.png');
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 50px;
+    
+}
+nav ul{
+    float: right;
+    margin-top: 0;
+    list-style: none;
+    vertical-align: middle;
+    flex-direction: row-reverse;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-align: center;
+    display: block;
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.start{
+    height: 1030px;
+}
+.start h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 20vh;
+}
+.wstep{
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.wstep h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.wstep p{
+    color: gray;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.wtp{
+    width: 100%;
+}
+.wptz{
+    width: 0%;
+    margin-left: 2vh;
+}
+.nonclass{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.herb{
+    justify-content: space-evenly;
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+}
+.container {
+    position: relative;
+    width: 30%;
+}
+  
+.herbimg {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: black 2px solid;
+    max-width: 350px;
+    max-height: 350px;
+    top: 50%;
+    left: 50%;
+    margin: 150px auto;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container:hover .herbimg {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    color: black;
+    font-size: 2em;
+    padding: 16px 32px;
+}
+.stroj{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.stroj h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.stroj p{
+    color: gray;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.str{
+    justify-content: space-evenly;
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+}
+.strcont{
+    position: relative;
+    width: 30%;
+}
+.strimg {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    max-width: 400px;
+    max-height: 700px;
+    top: 50%;
+    left: 50%;
+    margin: 150px auto;
+}
+  
+.strcont:hover .strimg {
+    opacity: 0.3;
+}
+  
+.strcont:hover .middle {
+    opacity: 1;
+}
+.walka{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.walka h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.walka p{
+    color: gray;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.turnieje{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.turnieje h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.turnieje p{
+    color: gray;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.turtext{
+    width: 60%;
+}
+.knight{
+    width: 38%;
+    margin-left: 2vh;
+}
+.turnieje2{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.turnieje2 h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.turnieje2 p{
+    color: gray;
+    font-size: 2.5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.rycerzeimg1{
+    justify-content: space-evenly;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+}
+.rycerzeimg1 img{
+    width: 50%;
+}
+.rycerzeimg2{
+    justify-content: space-evenly;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+}
+.rycerzeimg2 img{
+    width: 50%;
+}
+.turniejemp4v1{
+    justify-content: space-evenly;
+    display: flex;
+    height: 405px;
+    flex-direction: row;
+}
+.turniejemp4v1 iframe{
+    margin-top: 90px;
+}
+.turniejemp4v2{
+    justify-content: space-evenly;
+    display: flex;
+    height: 495px;
+    flex-direction: row;
+}
+.turniejemp4v2 iframe{
+    margin-top: 90px;
+}
+.kluby{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+}
+.kluby h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.kluby p{
+    color: gray;
+    font-size: 5vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+}
+.noclass{
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.klubytext{
+    width: 55%;
+}
+.klubyimg{
+    width: 50%;
+    margin-right: 1%;
+}
+.bow{
+    margin-top: -54px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+
+}
+.bow h1{
+    color: black;
+    font-size: 5em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.bow p{
+    color: gray;
+    font-size: 4vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+    width: 50%;
+}
+.bow img{
+    width: 25%;
+}
+.bron{
+    margin-top: -43px;
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.bron h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+}
+.bron p{
+    color: gray;
+    font-size: 4vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+    width: 50%;
+}
+.bronieimg{
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.nonclassbr{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nonclassbr img{
+    width: 45%;
+    height: 682px;
+}
+.bronieimg1{
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+    margin-top: 50px;
+}
+.tance{
+    max-width: 100%;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+.tance h1{
+    color: black;
+    font-size: 4em;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.tance p{
+    color: gray;
+    font-size: 4vh;
+    padding-top: 4vh;
+    padding-right: 3vh;
+    margin-left: 2vh;
+    
+}
