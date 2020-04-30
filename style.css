@@ -16,6 +16,7 @@ main{
     height: 100%;
 }
 .main{
+    /* Background pattern from Toptal Subtle Patterns */
     background-image: url('grunge_wall_@2X.png');
     -webkit-box-shadow: 0px -2px 28px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -2px 28px 2px rgba(0,0,0,0.75);
@@ -27,6 +28,7 @@ img{
 }
 nav {
     overflow: hidden;
+    /* Background pattern from Toptal Subtle Patterns */
     background-image: url('gray_sand_@2X.png');
     position: fixed;
     top: 0; 
@@ -147,6 +149,7 @@ nav ul li a{
     margin-left: 2vh;
 }
 .str{
+    padding-top: 3vh;
     justify-content: space-evenly;
     display: flex;
     max-width: 100%;
@@ -157,8 +160,8 @@ nav ul li a{
     justify-content: space-evenly;
 }
 .str img{
-    width: 35%;
-    height: 1015px;
+    width: 100%;
+    height: 100%;
 }
 .walka{
     -webkit-box-shadow: 0px -2px 28px 2px rgba(0,0,0,0.75);
@@ -434,4 +437,3 @@ footer{
     font-size: 40px;
     vertical-align: middle;
 }
-
