@@ -404,3 +404,9 @@ a{
     color: rgb(80, 80, 80);
     text-decoration: none;
 }
+.tancemp4v1{
+    justify-content: space-evenly;
+    display: flex;
+    height: 405px;
+    flex-direction: row;
+}
